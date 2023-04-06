@@ -5,99 +5,91 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingHorizontal="10dp"
+    android:paddingVertical="10dp"
     tools:context=".MainActivity">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/alpha_mb"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
-                android:orientation="horizontal">
+            android:text="@string/alpha" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/alpha_mb"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/start_alpha" />
+        <ImageView
+            android:id="@+id/alpha_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:src="@mipmap/android_robot_foreground"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/alpha_iv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20dp"
-                    android:src="@drawable/android"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
-                android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/scale_mb"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scale" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/scale_mb"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/start_scale" />
+        <ImageView
+            android:id="@+id/scale_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:src="@mipmap/android_robot_foreground"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/scale_iv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20dp"
-                    android:src="@drawable/android"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
-                android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/translate_mb"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/translate" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/translate_mb"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/start_translate" />
+        <ImageView
+            android:id="@+id/translate_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:src="@mipmap/android_robot_foreground"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/translate_iv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20dp"
-                    android:src="@drawable/android"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
-                android:orientation="horizontal">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rotate_mb"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rotate" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/rotate_mb"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:text="@string/start_rotate" />
-
-                <ImageView
-                    android:id="@+id/rotate_iv"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20dp"
-                    android:src="@drawable/android"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+        <ImageView
+            android:id="@+id/rotate_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:src="@mipmap/android_robot_foreground"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
 
 </LinearLayout>
