@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BaseAnimation</string>
+    <string name="start_alpha">Start alpha</string>
+    <string name="finish_alpha">Finish alpha</string>
+    <string name="start_scale">Start scale</string>
+    <string name="finish_scale">Finish scale</string>
+    <string name="start_translate">Start translate</string>
+    <string name="pause_translate">Pause translate</string>
+    <string name="start_rotate">Start rotate</string>
+    <string name="finish_rotate">Finish rotate</string>
 </resources>
