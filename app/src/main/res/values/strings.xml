@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">BaseAnimation</string>
-    <string name="alpha">Alpha</string>
-    <string name="scale">Scale</string>
-    <string name="translate">Translate</string>
-    <string name="rotate">Rotate</string>
 </resources>
